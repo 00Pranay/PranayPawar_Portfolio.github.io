@@ -218,11 +218,12 @@ img{
 /*Home page ends here */
 .about_me{
 	position:relative;
+	top:10rem;
 	background-color: aqua;
 }
 #about_me{
 	text-align: center;
-	top:10rem;
+	
 }
 p{
 	font-size: 20px;
