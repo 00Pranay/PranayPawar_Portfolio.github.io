@@ -1,0 +1,338 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	/* background-image:url("purple_background.webp"); */
+	background-color:black;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	width: 100%;
+	height: 100%;
+}
+
+.list{
+	position: relative;
+	top: 2.4rem;
+}
+
+#menu_list{
+	list-style: none;
+	background-color: yellow;
+}
+#menu_list a{
+	position: relative;
+	text-decoration: none;
+	color: red;
+	font-size: 2rem;
+}
+
+.ho{
+	top: 1rem;
+}
+ .am{
+	position: relative;
+	top: 1.5rem;
+}
+.re{
+	position: relative;
+	top: 2rem;
+}
+.co{
+	position: relative;
+	top: 2.5rem;
+}
+.nav{
+	background-color: yellow;
+	width: 100%;
+	position: static;
+	font-size: 20px;
+}
+.nav a{
+	color: red;	
+}
+.mainText h1{ 	
+	margin: 0;
+	padding: 28% 0 0 30%;
+	font-size: 5rem;	
+	color: rgb(226, 196, 148) ;
+
+}
+.mainText p{
+	font-size: 3.5rem;
+}
+.SD{
+	color: yellow;
+	animation-name:software;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+@keyframes software{
+	0%{color: ff76e4;}
+	25%{color: aqua;}
+	50%{color: bisque;}
+	75%{color: rgb(234, 126, 253);}
+	100%{color: rgb(73, 14, 83);}
+}
+.str {
+	color: yellow;
+}
+.row{
+	margin: 0;
+}
+.content .row{
+	margin: 0;
+	padding:0;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+
+.image{
+	position:relative;
+	max-width: 25rem;	
+}
+.image_col{
+	
+	bottom:  10rem;
+	float: right;
+	right: 10rem;
+}
+.pic_container{
+	position: relative;
+	display:grid;
+	align-items:flex-end;
+	border-radius:0 0 100vw 100vw ;
+	overflow: hidden;
+}
+.background_circle{
+	position: absolute;
+	aspect-ratio: 1/1 ;
+	width: 120%;
+	border-radius: 50%;
+}
+.me{
+	position: relative;
+	top:25%;
+}
+@media only screen and (max-width:1346px) {
+	.mainText h1{ 	
+		padding: 35% 0 0 25%;
+	}
+}
+@media only screen and (max-width:1246px) {
+	.mainText h1{ 	
+		margin: 0;
+		padding: 50% 0 0 25%;
+		font-size: 4rem;	
+	}
+	.SD{
+		font-size: 3.5rem;
+	}
+}
+@media only screen and (max-width:970px) {
+	.mainText h1{ 	
+		margin: 0;
+		padding: 50% 0 0 20%;
+		font-size: 3.5rem;	
+	}
+	.image_col{
+	
+		bottom:  5rem;
+		float: right;
+		right: 10rem;
+	}
+}
+@media only screen and (max-width:822px)
+{
+	.mainText h1{ 	
+		font-size: 3rem;	
+	}
+	.mainText p{
+		font-size: 2.8rem;
+	}
+}
+@media only screen and (max-width:769px){
+	.mainText h1{ 	
+		padding: 20% 0 0 30%;
+		font-size: 2.8rem;
+	}
+	#nav{
+		margin: 0;
+	}
+	.nav{
+		font-size: 20px;
+	}
+	.image_col{
+		bottom:  10rem;
+		right: 20rem;
+	}
+	.image{
+	max-width: 20rem;	
+    }
+
+}
+@media only screen and (max-width:460px){
+	.mainText h1{ 	
+		margin: 0;
+		padding: 20% 0 0 20%;
+		font-size: 2.8rem;
+	}
+	.image_col{
+		bottom:  10rem;
+		right: 12rem;
+	}
+	.image{
+	max-width: 18rem;	
+    }
+	.nav img{
+		bottom: 10rem;
+	}	
+
+	.Ch1{
+		font-size: 2rem;
+	}
+	.download_link{
+		position: relative;
+		font-size:1rem;
+	}
+}
+@media only screen and (max-width:376px){
+	.image_col{
+		bottom:  10rem;
+		right: 10rem;
+}
+
+}
+@media only screen and (max-width:360px){
+	.mainText h1{ 	
+		padding: 20% 0 0 15%;
+	}
+	.image_col{
+		bottom:  10rem;
+		right:8rem;
+	}
+	
+}
+/*Home page ends here */
+.about_me{
+	position:relative;
+	top:10rem;
+	background-color: rgb(99, 107, 107);
+}
+#about_me{
+	text-align: center;
+}
+p{
+	font-size: 20px;
+}
+ul li{
+	font-size: 20px;
+	list-style: none;
+}
+/* About me ends here */
+#resume{
+	position: relative;
+	top:10rem;
+}
+#resume a{
+	background-color: antiquewhite;
+}
+#table{
+	width: 60%;
+	color: yellow;
+}
+.table1{
+	position: relative;
+	margin: 0;
+	padding-left: 30%;
+}
+.txt{
+	text-align: center;
+}
+.h2{
+	color: yellow;
+}
+#resume>h1{
+	color: yellow;
+}
+.download_link{
+	position: relative;
+	font-size: 30px;
+	
+}
+/* About me Ends here */
+.contact_me{
+	position: relative;
+	background-color: #2c6799;
+	top: 10rem;
+	color: white
+}
+.svgs{
+	display: flex;
+	padding: 2% 0 0 0;
+	justify-content:space-around;
+}
+#gmail{
+	position: relative;
+	bottom:.8rem;
+}
+.Ch1{
+color:brown;
+}
+.ul1 .ul2 li{
+	list-style: none;
+	
+}
+.about_me{
+	color:darkgray ;
+}
+.ul1{
+	color: rgb(226, 196, 148) ;
+}
+.resume{
+	background-color: white;
+}
+.tr{
+	color: darkgreen;
+}
+tbody{
+	color: rgb(59, 59, 167);
+}
+.Ch1{
+	border: 10px black;
+}
+.download_link {
+	border: 2px;
+	background-color: blue;
+}
+.btnn{
+	font-size: 2rem;
+	position: relative;
+	padding-bottom:2%;
+	padding-left: 10%;
+}
+#about_me h1,h2{
+	font-family:"Apple Chancery";
+}
+#about_me p {
+	font-family: "Comic Sans MS";
+}
+.table1 h1{
+	font-family: Impact;
+	font-size: 5rem;
+}
+.table1 thead{
+	font-family: Impact;
+	font-size: 3rem;
+}
+#Contact_me h2{
+	font-family: Consolas ;
+}
+#Contact_me h1{
+	font-family:"Courier New";
+}
