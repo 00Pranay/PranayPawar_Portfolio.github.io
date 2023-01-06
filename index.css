@@ -222,6 +222,7 @@ img{
 	background-color: aqua;
 }
 #about_me{
+	position:relative;
 	text-align: center;
 	top:10%;
 	margin-top:10%;
