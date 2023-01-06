@@ -218,7 +218,7 @@ img{
 /*Home page ends here */
 .about_me{
 	position:relative;
-	
+	padding:10%;
 	background-color: aqua;
 }
 #about_me{
